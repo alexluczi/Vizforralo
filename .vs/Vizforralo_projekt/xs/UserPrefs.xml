@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{EA228D54-0A2E-4A62-A18F-CC656A8CC835}|Default">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Vizforralo_projekt/Program.cs">
+    <Files>
+      <File FileName="Vizforralo_projekt/Program.cs" Line="20" Column="10" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Vizforralo_projekt">
+            <Node name="Vizforralo_projekt">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Vizforralo__projekt PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
