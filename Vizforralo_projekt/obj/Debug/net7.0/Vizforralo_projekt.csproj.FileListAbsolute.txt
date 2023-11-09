@@ -1,0 +1,15 @@
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/bin/Debug/net7.0/Vizforralo_projekt
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/bin/Debug/net7.0/Vizforralo_projekt.deps.json
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/bin/Debug/net7.0/Vizforralo_projekt.runtimeconfig.json
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/bin/Debug/net7.0/Vizforralo_projekt.dll
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/bin/Debug/net7.0/Vizforralo_projekt.pdb
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.csproj.AssemblyReference.cache
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.GeneratedMSBuildEditorConfig.editorconfig
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.AssemblyInfoInputs.cache
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.AssemblyInfo.cs
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.csproj.CoreCompileInputs.cache
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.dll
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/refint/Vizforralo_projekt.dll
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.pdb
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/Vizforralo_projekt.genruntimeconfig.cache
+/Users/luczialex/Projects/Vizforralo_projekt/Vizforralo_projekt/obj/Debug/net7.0/ref/Vizforralo_projekt.dll
