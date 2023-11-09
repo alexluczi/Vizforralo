@@ -18,8 +18,32 @@ class Program
         Console.WriteLine("+-----------------------------------+");
 
         Console.SetCursorPosition(("|Kérem adja meg a víz hőfokát: ".Length), 4);
-        Int16 temperature = Convert.ToInt16(Console.ReadLine());
+        short temperature = 0;
+        while (true)
+        {
+            try
+            {
+                Console.SetCursorPosition(("|Kérem adja meg a víz hőfokát: ".Length), 4);
+                temperature = Convert.ToInt16(Console.ReadLine());
+                if (temperature > 100)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("\nHibás értéktípus!");
+                    Console.ResetColor();
+                    continue;
+                }
+            }
+            catch (Exception)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("\nHibás értéktípus!");
+                Console.ResetColor();
+                Console.SetCursorPosition(("|Kérem adja meg a víz hőfokát: ".Length), 4);
+                continue;
+            }
 
+            break;
+        }
 
         Console.Clear();
 
