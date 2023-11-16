@@ -6,6 +6,7 @@ class Program
 {
     static bool status = false; //A "status" az állapotát jelzi, ha false ki van kapcsolva, ha true, akkor meg be
     static short temperature;
+    int[] tracked_data;
 
     static void user_temperature() //Bekéri a hőfokot a felhasználótól
     {
@@ -96,6 +97,50 @@ class Program
         }
     }
 
+    static void cooling() //Hűtés
+    {
+        if (!status)
+        {
+            while (true)
+            {
+                always_on();
+
+                if (temperature > 80)
+                {
+                    temperature -= 10;
+                }
+                else if (temperature > 50 & temperature <= 80)
+                {
+                    temperature -= 5;
+                }
+                else if (temperature >= 20 & temperature <= 50)
+                {
+                    temperature -= 2;
+                }
+                else
+                {
+                    always_on();
+                    break;
+                }
+
+                Thread.Sleep(1000); //1 perces várakozási idő
+            }
+        }
+    }
+
+    static void tracking()
+    {
+        int[] tracked_data = new int[90]; 
+
+        for (int i = 0; i < 90; i++)
+        {
+            tracked_data[i] = temperature;
+            Thread.Sleep(1000); //1 perces várakozási idő
+        }
+
+        Console.WriteLine("[{0}]", string.Join(", ", tracked_data));
+    }
+
     static void Main(string[] args)
     {
         var vizforralo = "Vizforraló";
@@ -121,10 +166,17 @@ class Program
             {
                 case ConsoleKey.Enter:
                     status = true;
+
+                    Task tracking_task = Task.Run(() => tracking());
+
                     heating();
+                    cooling();
+                    tracking_task.Wait();
+
                     break;
                 default:
                     Console.WriteLine("\nKérem a megfelelő billentyűket használja!");
+
                     continue;
             }
 
